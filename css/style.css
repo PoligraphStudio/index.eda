@@ -149,13 +149,16 @@ body {
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  margin: -20px;
 }
 .card {
+  flex: 50%;
+  margin: 20px;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
   padding: 32px;
-  width: 570px;
+  max-width: 570px;
   min-height: 380px;
   display: flex;
   flex-direction: column;
@@ -209,4 +212,235 @@ body {
   width: 100%;
   z-index: -2;
   object-fit: cover;
+}
+.section-title {
+  margin-top: 0;
+  margin-bottom: 47px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+}
+.delivery-week {
+  padding: 100px 0;
+}
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card {
+  position: relative;
+  margin: 15px;
+  width: 275px;
+  height: 185px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.delivery-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494f;
+  padding: 5px 10px;
+}
+.tag-health {
+  background: #d0fd89;
+}
+.tag-vegetable {
+  background: #aebc41;
+}
+.tag-meat {
+  background: #b86b78;
+}
+.tag-bird {
+  background: #d68334;
+}
+.tag-fish {
+  background: #cd6255;
+}
+.tag-children {
+  background: #fffdbf;
+}
+.tag-parents {
+  background: #f6fdc8;
+}
+.tag-holiday {
+  background: #fef7fe;
+}
+.section-grey {
+  background: #f6f6f6;
+}
+.category {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 62px;
+}
+.tabs-link {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494f;
+  text-decoration: none;
+  margin-right: 58px;
+}
+.tabs-link.active {
+  color: #f37321;
+}
+.tabs-contents {
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+}
+.tabs-card {
+  margin: 20px;
+  min-height: 471px;
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 20px 5px #dbdbe2;
+}
+.tabs-image {
+  max-width: 100%;
+}
+.tabs-card-content {
+  padding: 23px;
+}
+.tabs-item {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tabs-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+.tabs-price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4b4b51;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs-weight {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+.tabs-info {
+  display: flex;
+  justify-content: space-between;
+}
+.button-outline {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f37321;
+}
+.button-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+}
+.our-advantages {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.our-advantages-contents {
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+}
+.our-advantages-card {
+  margin: 20px;
+  min-height: 296px;
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 20px 5px #eaeaf1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 23px 0px 23px;
+}
+.our-image {
+  max-width: 60px;
+  max-height: 60px;
+}
+.our-advantages-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+.our-item {
+  margin-top: 34px;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+.our-description {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #49494f;
+  margin: 0;
+}
+.footer {
+  background: #f6f6f6;
+  padding: 40px 0;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
 }
