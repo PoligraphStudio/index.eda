@@ -453,12 +453,16 @@ body {
 }
 .footer-logo {
   margin-right: 50px;
+  width: 205px;
 }
 .footer-link {
   font-size: 16px;
   line-height: 23px;
   color: #000000;
   margin-right: 50px;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: solid 1px;
 }
 .social-links {
   display: flex;
@@ -541,5 +545,114 @@ body {
   }
   .tabs-link {
     margin-right: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .slider-buttons {
+    right: 20px;
+  }
+  .button-primary {
+    padding: 10px 30px;
+  }
+  .section-title {
+    line-height: 40px;
+  }
+  .delivery-tag {
+    font-size: 18px;
+  }
+  .footer-logo {
+    width: 150px;
+  }
+  .social-link {
+    margin-left: 10px;
+  }
+  .our-advantages {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .slide-content {
+    margin-top: -60px;
+  }
+  .shopping-cart {
+    margin-left: 15px;
+    width: 40px;
+    height: 44px;
+  }
+  .shopping-counter {
+    padding: 2px;
+  }
+  .login {
+    padding: 10px 16px;
+  }
+  .slide-title {
+    font-size: 29px;
+    line-height: 45px;
+  }
+  .slide-text {
+    font-size: 14px;
+  }
+  .button-primary {
+    padding: 5px 15px;
+  }
+  .slider-buttons {
+    right: 20px;
+    bottom: 20px;
+  }
+  .card-delivery {
+    font-size: 15px;
+  }
+  .delivery-week {
+    margin-top: -60px;
+    margin-bottom: -20px;
+  }
+  .delivery-cards {
+    flex-direction: column;
+  }
+  .delivery-card {
+    width: 100%;
+  }
+  .section-title {
+    margin-bottom: 25px;
+  }
+  .button-center {
+    width: 250px;
+  }
+  .tabs {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .our-advantages {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .our-advantages-card {
+    max-width: 70%;
+    margin: 20px auto;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    margin-bottom: 7px;
+    margin-right: 20px;
+    width: 120px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .social-links {
+    padding-top: 15px;
+    margin: auto;
   }
 }
