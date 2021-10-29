@@ -570,6 +570,95 @@ body {
     padding-bottom: 100px;
   }
 }
+
+@media (max-width: 400px) {
+  .slide-content {
+    margin-top: -60px;
+  }
+  .shopping-cart {
+    margin-left: 15px;
+    width: 40px;
+    height: 44px;
+  }
+  .shopping-counter {
+    padding: 2px;
+  }
+  .login {
+    padding: 10px 16px;
+  }
+  .slide-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .slide-text {
+    font-size: 14px;
+  }
+  .button-primary {
+    padding: 10px 22px;
+  }
+  .slider-buttons {
+    right: 20px;
+    bottom: 20px;
+  }
+  .card-delivery {
+    font-size: 15px;
+  }
+  .delivery-week {
+    margin-top: -60px;
+    margin-bottom: -20px;
+  }
+  .delivery-cards {
+    flex-direction: column;
+  }
+  .delivery-card {
+    width: 100%;
+  }
+  .section-title {
+    margin-bottom: 25px;
+  }
+  .button-center {
+    width: 250px;
+  }
+  .tabs {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .our-advantages {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .our-advantages-card {
+    max-width: 70%;
+    margin: 20px auto;
+  }
+  .footer-wrapper {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    margin-bottom: 7px;
+    margin-right: 20px;
+    width: 120px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .social-links {
+    padding-top: 25px;
+    margin: auto;
+  }
+}
+
 @media (max-width: 320px) {
   .slide-content {
     margin-top: -60px;
